@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Pescaria Ortisoara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contents">
+    <header class="top-of-page">
+        <img class="logo-image" src="images/logo.bmp" alt="logo with a fish" width="100" height="100">
+        <nav class="nav-bar-container">
+            <a class="nav-bar-button" href="#DespreNoi">DESPRE NOI</a>
+            <a class="nav-bar-button" href="#Locatie">LOCATIE</a>
+            <a class="nav-bar-button" href="#Preturi">PRETURI</a>
+            <a class="nav-bar-button" href="#Contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-slideshow-section">
+            <img id="slideshow-image" src="images/slideshow_images/img1.jpg" alt="image of nature">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <ul class="content-container-list">
+            <li class="content-container-list-element">
+                <div class="information-div">
+                    <div class="information-div-element">
+                        <img src="images/manfishing.jpg" alt="nelu sta cu pestele" class="main-content-images">
+                    </div>
+                    <div class="information-div-element">
+                        <div class="information-div-element-para">
+                            <h3 class="info-header" id="DespreNoi">Despre Noi</h3>
+                            <p class="information-para">Hai la pescuit! Pescăria Orțișoara te așteaptă și pe tine la prins de pești și relaxare, balta fiind repopulată cu pește lunar! </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="content-container-list-element">
+                <div class="information-div" style="flex-direction: column;">
+                 <div class="location-div">
+                        <div class="">
+                            <h3 class="info-header" id="Locatie">Locatia</h3>
+                        </div>
+                  
+                    <div class="information-div-element">
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1386.8761179915414!2d21.180551774545858!3d45.95623310858254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474573be39753fa1%3A0x2a4974e8deca07bb!2sPescaria%20Ortisoara!5e0!3m2!1sro!2sro!4v1693392817118!5m2!1sro!2sro" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </li>
+            <li class="content-container-list-element">
+                <div class="information-div">
+                    <div class="information-div-table-element">
+                        <div class="information-div-element-para">
+                            <h3 class="info-header" id="Preturi">Preturi</h3>
+                            <p class="information-para">Taxa Pescuit: 40 Lei (se pot retine 2kg caras) </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="content-container-list-element">
+                <div class="information-div">
+                    <div class="information-div-element">
+                        <div class="information-div-element-para">
+                            <h3 class="info-header" id="Contact">Contactează-ne!</h3>
+                            <div style="display: flex; flex-direction: row; justify-content: center; text-align: center;">
+                                <img class="distance-mr12 distance-mt-3" width="20" height="20" src="images/phoneicon.png">
+                                <p class="information-para">Tel: 0758 247 060</p>
+                            </div>
+                            <div style="display: flex; flex-direction: row; justify-content: center; text-align: center;">
+                                <a class= "information-para" style = "margin: auto; text-decoration: none; color:white" href="https://www.facebook.com/PescariaOrtisoara" target="_blank"><img class="distance-mr12"src="images/facebooklogo.png" alt="send to facebook page image" width="20" height="20">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information-div-element">
+                        <img src="images/neluholdingfish.jpg" alt="nelu sta cu pestele" class="main-content-images">
+                    </div>
+                    
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="bottom-of-page">
+        <!-- <p> Facebook page <a href="https://www.facebook.com/PescariaOrtisoara" target="_blank">HERE</a></p> -->
+        <a href="https://www.facebook.com/PescariaOrtisoara" target="_blank"><img src="images/facebooklogo.png" alt="send to facebook page image" width="20" height="20"></a>
+    </footer>
+    </div>
+
+</body>
+</html>
